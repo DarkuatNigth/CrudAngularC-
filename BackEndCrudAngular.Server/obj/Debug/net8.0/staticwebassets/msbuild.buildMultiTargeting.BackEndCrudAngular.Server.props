@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BackEndCrudAngular.Server.props" />
+</Project>

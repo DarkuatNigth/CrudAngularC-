@@ -4,6 +4,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddSingleton<EmpleadoData>();
+builder.Services.AddSingleton<DepartamentoData>();
 builder.Services.AddCors(options => 
 {
     options.AddPolicy("NuevaPolitica", app => 

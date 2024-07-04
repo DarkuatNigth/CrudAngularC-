@@ -61,3 +61,4 @@ C:\Users\hulk_\Documents\Poroyectos C\Proyecto002\BackEndCrudAngular.Server\obj\
 C:\Users\hulk_\Documents\Poroyectos C\Proyecto002\BackEndCrudAngular.Server\obj\Debug\net8.0\BackEndCrudAngular.Server.pdb
 C:\Users\hulk_\Documents\Poroyectos C\Proyecto002\BackEndCrudAngular.Server\obj\Debug\net8.0\BackEndCrudAngular.Server.genruntimeconfig.cache
 C:\Users\hulk_\Documents\Poroyectos C\Proyecto002\BackEndCrudAngular.Server\obj\Debug\net8.0\ref\BackEndCrudAngular.Server.dll
+C:\Users\hulk_\Documents\Poroyectos C\Proyecto002\BackEndCrudAngular.Server\obj\Debug\net8.0\BackEndCrudAngular.Server.sourcelink.json

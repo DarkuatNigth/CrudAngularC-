@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BackEndCrudAngular.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d6b31766e0154b0a109ba584ac4dcc2ebd93fd7e")]
 [assembly: System.Reflection.AssemblyProductAttribute("BackEndCrudAngular.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BackEndCrudAngular.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

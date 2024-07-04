@@ -6,6 +6,6 @@ export interface Empleado
 	strEstado:string,
 	strCorreo:string,
 	dcSalario:number,
-    dtFechaIngreso:string,
-    dtFechaModificacion:string
+    dtFechaIngreso:Date,
+    dtFechaModificacion:Date | null
 }

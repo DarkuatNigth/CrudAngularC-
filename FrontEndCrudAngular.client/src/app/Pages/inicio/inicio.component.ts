@@ -7,13 +7,14 @@ import { EmpleadoService } from '../../Services/empleado.service';
 import { Empleado } from '../../Models/Empleado';
 import { Router } from '@angular/router';
 import { ResponseAPI } from '../../Models/ResponseAPI';
-
-
+import { Departamento } from '../../Models/Departamento';
+import { DepartamentoService } from '../../Services/departamento.service';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-inicio',
   standalone: true,
-  imports: [MatCardModule,MatTableModule,MatIconModule,MatButtonModule],
+  imports: [MatCardModule,MatTableModule,MatIconModule,MatButtonModule,CommonModule],
   templateUrl: './inicio.component.html',
   styleUrl: './inicio.component.css'
 })
@@ -21,9 +22,12 @@ export class InicioComponent {
 
   private objEmpleadoService = inject(EmpleadoService);
   public objListaEmpleado:Empleado[] = [];
-  public objDisplayedColumns: string[] = ["nombreEmpleado", "correo", "salario", "fechaIngreso","fechaModificacion","estado","Accion"];
+  private objDepartamentoService = inject(DepartamentoService);
+  public objListDepartamento:Departamento[] = [];
+  public objDisplayedColumns: string[] = ["nombreEmpleado", "correo", "salario","departamento", "fechaIngreso","estado","Accion"];
   constructor(private objRouter:Router)
   {
+    this.obtenerDepartamentos();
     this.obtenerEmpleados();
   }
 
@@ -59,6 +63,11 @@ export class InicioComponent {
       }
   }
 
+  obtenerNombreDepartamento(intValor:number)
+  { 
+    const objDepartamento = this.objListDepartamento.find(obj => obj.intIdDepartamento === intValor);
+    return objDepartamento?.strNombreDepartamento;
+  }
   obtenerEmpleados(){
     this.objEmpleadoService.getLista().subscribe(
       {
@@ -76,6 +85,22 @@ export class InicioComponent {
           console.log(err.message);
         }
       })
+  }
+
+  
+  obtenerDepartamentos(): void {
+    this.objDepartamentoService.getListaDepartamento().subscribe({
+      next: (data: Departamento[]) => {
+        if (data.length > 0) {
+          this.objListDepartamento = data;
+        } else {
+          alert("No se encontraron departamentos.");
+        }
+      },
+      error: (err: any) => {
+        console.error('Error al obtener departamentos:', err.message);
+      }
+    });
   }
 
 }

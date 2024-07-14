@@ -1696,19 +1696,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hulk_\\.nuget\\packages\\": {}
+    "C:\\Users\\Emmanuel Martillo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hulk_\\Documents\\Poroyectos C\\Proyecto002\\BackEndCrudAngular.Server\\BackEndCrudAngular.Server.csproj",
+      "projectUniqueName": "C:\\Users\\Emmanuel Martillo\\Documents\\Proyectos\\AngularCrudC\\BackEndCrudAngular.Server\\BackEndCrudAngular.Server.csproj",
       "projectName": "BackEndCrudAngular.Server",
-      "projectPath": "C:\\Users\\hulk_\\Documents\\Poroyectos C\\Proyecto002\\BackEndCrudAngular.Server\\BackEndCrudAngular.Server.csproj",
-      "packagesPath": "C:\\Users\\hulk_\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hulk_\\Documents\\Poroyectos C\\Proyecto002\\BackEndCrudAngular.Server\\obj\\",
+      "projectPath": "C:\\Users\\Emmanuel Martillo\\Documents\\Proyectos\\AngularCrudC\\BackEndCrudAngular.Server\\BackEndCrudAngular.Server.csproj",
+      "packagesPath": "C:\\Users\\Emmanuel Martillo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Emmanuel Martillo\\Documents\\Proyectos\\AngularCrudC\\BackEndCrudAngular.Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\hulk_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Emmanuel Martillo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1764,7 +1764,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
